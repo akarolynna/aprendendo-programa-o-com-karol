@@ -1,5 +1,5 @@
 {
-📅 Data de criação: 11/11/2025  
+📅 Data de criação: 12/11/2025  
 👩‍💻 Autora: Ana Karolynna Mota  
 🎯 Desafio: Sistema de Correção Automática de Provas  
 
@@ -99,3 +99,4 @@ Inicio
 
 
 Fimalgoritmo
+
