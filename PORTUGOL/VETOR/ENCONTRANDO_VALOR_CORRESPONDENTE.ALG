@@ -18,7 +18,6 @@ evitando mensagens repetidas dentro do laço.
 }
 
 
-
 Algoritmo "encontrando_valor_correspondente"
 
 Var
@@ -51,3 +50,4 @@ Inicio
    fimse
 
 Fimalgoritmo
+
