@@ -1,3 +1,33 @@
+{
+🌟 DESAFIO DE PROGRAMAÇÃO - FUNDAMENTOS 💻
+------------------------------------------
+📅 Data de criação: 08/11/2025
+✍️ Autora: Anna Karolynna Mota C. A. de Souza
+🏫 Instituto Federal Fluminense - Campus Itaperuna
+🎯 Linguagem: Pascalzinho
+
+💬 Desafio: Calculadora Inteligente 🧮
+Crie um algoritmo que funcione como uma calculadora simples.
+O usuário deve escolher qual operação deseja realizar e, em seguida,
+informar dois números. O programa deve calcular e mostrar o resultado
+da operação escolhida.
+
+┌────────────────────────────┬────────────────────┐
+│ 🔢 Operação                │ 🧠 Símbolo usado   │
+├────────────────────────────┼────────────────────┤
+│ Soma                       │ ➕                 │
+│ Subtração                  │ ➖                 │
+│ Multiplicação              │ ✖️                 │
+│ Divisão                    │ ➗                 │
+└────────────────────────────┴────────────────────┘
+
+✨ Dica:
+Use o comando "caso ... seja" (case of) para identificar qual operação
+o usuário selecionou.
+}
+
+
+
 Program Pzim ;
 
 var
@@ -7,15 +37,15 @@ Begin
   
   writeln('- - - - PROGRAMA CALCULADORA - - - - ');
   writeln();
-  writeln('Opera��es poss�veis: ');
-  writeln('SOMA digite (+) | SUBTRA��O digite (-) | DIVIS�O digite (/)| MULTIPLICA��O digite (*)');
+  writeln('Operações possíveis: ');
+  writeln('SOMA digite (+) | SUBTRAÇÃO digite (-) | DIVISÃO digite (/)| MULTIPLICAÇÃO digite (*)');
   writeln();
-  write('Qual opera��o voc� deseja realiza: ');
+  write('Qual operação você deseja realiza: ');
   readln(operacao);
   
-  write('Informe o 1� n�mero: ');
+  write('Informe o 1º número: ');
   readln(numero1);
-  write('Informe o 2� n�mero: ');
+  write('Informe o 2º número: ');
   readln(numero2);
   
   case operacao of
@@ -36,6 +66,7 @@ Begin
       writeln('O resultado: ', numero1:2:2, ' x ', numero2:2:2, ' = ', resultado:2:2);
     end
     else
-    writeln('Tente novamente! Opera��o inv�lida!');
+    writeln('Tente novamente! Operação inválida!');
   end;
+
 End.
