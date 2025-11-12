@@ -1,3 +1,18 @@
+
+{
+📅 Data de criação: 12/11/2025  
+👩‍💻 Autora: Ana Karolynna Mota  
+🎯 Desafio: Classificador de Números – Par ou Ímpar  
+
+📘 Descrição:
+Crie um algoritmo que armazene **15 números inteiros** em um vetor e exiba uma **listagem numerada**,  
+mostrando para cada posição do vetor o **número informado** e uma **mensagem indicando se ele é par ou ímpar**.  
+
+💡 Dica: use o  🧮 operador **MOD** para verificar se o número é divisível por 2  
+(ou seja, se o resto da divisão for 0 → número par; caso contrário → ímpar).
+
+}
+
 Algoritmo "classificador de numero"
 
 Var
@@ -8,22 +23,23 @@ Var
 Inicio
 
    para i de 1 ate 15 faca
-      escreva("Informe um n�mero:")
+      escreva("Informe um número:")
       leia(vetorNum[i])
       escreval()
-      escreval(" - - - POSI��O ",i," - - - ")
+      escreval(" - - - POSIÇÃO ",i," - - - ")
       escreval()
 
-      escreval("N�MERO: ", vetorNum[i])
+      escreval("NÚMERO: ", vetorNum[i])
 
       se (vetorNum[i] mod 2)=0 entao
          escreval("STATUS: PAR")
       senao
-         escreval("STATUS: �MPAR")
+         escreval("STATUS: ÍMPAR")
       fimse
        escreval()
       escreval("- - - - - - - -")
    fimpara
+
 
 
 
